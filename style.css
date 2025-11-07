@@ -1,0 +1,83 @@
+body {
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-repeat:repeat-x;
+    width: 1420px;
+    height: 500px;
+    background-color: hsl(275, 100%, 97%);
+
+}
+
+
+h1, img.imgFerst {
+    display: inline-block;
+    margin: 40px 15px;
+}
+
+h1 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 70PX;
+    color: hsl(292, 42%, 14%);
+    top: 0;
+}
+/* ============================================ */
+
+div.grop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+img.imgOne {
+    src: url(/assets/images/icon-minus.svg);
+}
+
+/* ============================================ */
+
+
+/* ____________________________________________ */
+p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+
+p.Questions {
+    font-weight: 600;
+}
+
+
+p.answer {
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+}
+
+p.answer {
+    display: none;
+}
+
+
+
+p.block {
+    display:block;
+}
+
+
+
+/* ____________________________________________ */
+
+.The-mosque {
+    background-color: white;
+    width: 550px;
+    position: relative;
+    margin: 150px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+hr {
+    background-color: #ddd;
+    height: 1px;
+    border: 0;
+}
